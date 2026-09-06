@@ -1,0 +1,41 @@
+﻿# Environment variables
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Logs
+*.log
+
+# Local database / generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Local uploaded/generated files
+backend/storage/uploads/*
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Backups / archives
+NEXUS-backup/
+*.zip
